@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+body {
+    font-family: 'Merriweather', serif;
+    padding: 20px;
+    font-size: 20px;
+    /* this line came from google font */
+    background-color: lightgoldenrodyellow;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* there is a comment line  */
+
+a {
+    text-decoration: none;
+}
+
+input,
+textarea {
+    border: 2px solid yellowgreen;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+button {
+    border: 2px solid yellowgreen;
+    border-radius: 10px;
+    background-color: greenyellow;
+    font-size: 20px;
+    color: firebrick;
+    padding: 5px;
+    /* top , bottom , right , left all these are showing padding order*/
+}
+
+.header {
+    display: flex;
+    border: 3px solid yellowgreen;
+    background-color: yellow;
+    border-radius: 50px;
+    padding: 10px 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.menu a {
+
+    font-weight: 700;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.content .about {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 40%;
+    gap: 30px;
+}
+
+.about .MyPhoto img {
+    width: 500px;
+    height: 500px;
+    border: 5px solid yellowgreen;
+    border-radius: 250px;
+
+}
+
+.about .description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid gray;
+    margin: 20px;
+}
+
+.section {
+    width: 60%;
+}
+
+.section .card {
+    display: flex;
+    border: 5px solid yellowgreen;
+    border-radius: 30px;
+    background-color: yellow;
+    margin: 20px;
+    padding: 10px;
+}
+
+.card .right{
+    display: flex;
+    padding-top: 30px;
+    margin-left: 100px;
+}
+
+.card .left{
+    margin-left: 15px;
+}
+

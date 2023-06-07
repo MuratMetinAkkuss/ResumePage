@@ -1,0 +1,31 @@
+p {
+    font-size: large;
+    color: aquamarine;
+    background-color: black;
+    text-align: right;
+}
+
+/*div {
+    border: 3px solid rgb(233, 139, 181);
+    width: 20%;
+    text-align: center;
+    background-color: bisque;
+    border-radius: 20px;
+    box-shadow: 10px -10px 40px blueviolet;
+}*/
+
+h1 {
+    text-shadow: 10px -10px 8px gray;
+}
+
+.container{
+    display: flex;
+    background-color: aqua;
+    
+}
+.container div{
+    background-color: gray;
+    height: 160px;
+    width: 160px;
+    margin: 10px;
+}

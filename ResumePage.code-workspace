@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "ResumePage",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ResumePage"
+	}
+}
